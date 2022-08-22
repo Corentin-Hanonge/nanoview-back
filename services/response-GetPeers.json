@@ -1,0 +1,48 @@
+{
+  "data": {
+    "nodes": [
+      {
+       "id":"01",
+       "address":"nano_nvrziemvfheuvfevvfhefuicndfiumevfd",
+       "country":"Germany" ,
+       "ip":"2.56.98.216",
+       "coordinates" : [
+         {
+           "spherical":[
+             {"long":"8.35695"},
+             {"lat":"49.0291"}
+           ]
+         },
+         {
+           "cartesian":[
+             {"x":"8.35695"},
+             {"y":"49.0291"},
+             {"z":"40.32"}
+           ]
+         }
+         ]
+      },
+      {
+       "id":"02",
+       "address":"nano_nvrziemvfheuvfevvfhefuicndbgrfiumevfd",
+       "country":"United States",
+       "ip":"13.56.65.224",
+       "coordinates" : [
+         {
+           "spherical":[
+             {"long":"8.35695"},
+             {"lat":"49.0291"}
+           ]
+         },
+         {
+           "cartesian":[
+             {"x":"8.35695"},
+             {"y":"49.0291"},
+             {"z":"-40.32"}
+           ]
+         }
+         ]
+      }
+    ]
+  }
+}
