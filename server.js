@@ -16,7 +16,7 @@ const express = require('express')
 
       cors = require('cors')
 
-      PORT = 3000
+      PORT = process.env.PORT || 3000
 
 
 const uri = "mongodb+srv://choco:lQ6K9Itmh4ATvsaZ@nano-fr.qnidto0.mongodb.net/?retryWrites=true&w=majority"
