@@ -17,8 +17,9 @@ const express = require('express')
 
       PORT = process.env.PORT || 3000
 
+      require('dotenv').config({path: __dirname + '/.env'})
 
-const uri = "mongodb+srv://choco:lQ6K9Itmh4ATvsaZ@nano-fr.qnidto0.mongodb.net/?retryWrites=true&w=majority"
+const uri =process.env.DBURI
 
 //CONNECT TO MONGOOSE DATABASE
 mongoose.connect(uri, {
