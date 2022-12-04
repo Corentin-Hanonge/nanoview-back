@@ -54,7 +54,7 @@ app.get('/representative/:account', (req,res) => {
 //peersService.getPeersInfo().then(console.log)
 
 // 1. 
-dbService.insertNodesInDb()
+//dbService.insertNodesInDb()
 
 //dbService.sendQuorumRequest().then(console.log)
 
