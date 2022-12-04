@@ -3,7 +3,6 @@
 const express = require('express')
 
       peersService = require('./services/peersService.js')
-
       dbService = require('./services/DBfill-update.js')
 
       repService = require('./services/getRepresentative.js')
@@ -54,13 +53,15 @@ app.get('/representative/:account', (req,res) => {
 //INCOMING GET : FOR PROJECTS INFO
 //peersService.getPeersInfo().then(console.log)
 
-//dbService.insertNodesInDb()
+// 1. 
+dbService.insertNodesInDb()
 
 //dbService.sendQuorumRequest().then(console.log)
 
 //dbService.fetchLocationFromIp("52.24.24.124").then(console.log)
 //app.get...
 
+//2.
 //coordinatesCalc.insertSpherical()
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
